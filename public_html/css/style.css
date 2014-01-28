@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 28, 2014, 9:00:34 PM
+    Author     : Tushar
+*/
+body{
+    background-color: #269abc;
+    font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size:100%;
+    color: white;
+}
+img{
+    max-width: 100%;
+    /*margin:0 auto;
+    display: block;*/
+}
+.container{
+    width: 100%;/*350px;*/
+    margin: 10px auto;
+}
+.row{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+    width: 100%;
+}
+.header img{
+    max-width: 100%;
+}
+#banner{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.maintText{
+    text-align: left;
+    font-size: 1.1em;
+}
+.btnSms, .btnSms:focus, .btnSms:hover {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    font-size:1.2em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: #00cc00;
+    
+    color: white;
+    text-decoration: none;
+}
+.disclimer {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer{
+    color: #ddd;
+}
+
+@media screen and (max-width:360px){
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (min-width:361px) and (max-width:480px){
+    .container{
+        width: 100%;/*470px;*/
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .container{
+        width: 470px;
+    }
+}
+@media screen and (min-width:769px){
+    .container{
+        width: 470px;
+    }
+}
